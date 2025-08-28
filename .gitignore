@@ -1,0 +1,9 @@
+# Node
+node_modules/
+
+# Vite / VitePress
+.vitepress/dist
+.vitepress/cache
+
+# Logs
+*.log
