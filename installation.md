@@ -1,5 +1,6 @@
-## Prerequisites
+::: tip Prerequisite
 You will need Git for the Unity package manager to function properly. You can download Git [here](https://git-scm.com/downloads/). Default installation settings are fine. Some systems may have this pre-installed. 
+:::
 
 ## Installing Unity
 
