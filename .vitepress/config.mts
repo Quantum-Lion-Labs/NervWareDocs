@@ -6,6 +6,10 @@ export default defineConfig({
   description: "NervBox Modding Docs",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+
+    logo: 'Assets/NervWare.svg',
+    siteTitle: 'Docs',
+
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' }
@@ -13,22 +17,33 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'About',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Introduction', link: '/introduction' },
+          { text: 'Roadmap', link: '/roadmap' }
         ]
       },
       {
         text: 'Getting Started',
         items: [
-          { text: 'Installation', link: '/installation' }
+          { text: 'Installation', link: '/installation' },
+          { text: 'Creating a Spawnable', link: '/spawnable' },
+          { text: 'Creating a Level', link: '/level' },
+          { text: 'Grips Overview', link: '/grips' },
+          { text: 'Relink Mod Data to Existing Mod', link: '/recovery' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Quantum-Lion-Labs/NervWare' }
-    ]
-  }
+      { icon: 'github', link: 'https://github.com/Quantum-Lion-Labs/NervWare' },
+      { icon: 'discord', link: 'https://discord.com/invite/nj3kcrz3nP' }
+    ],
+
+    search: {
+      provider: 'local'
+    }
+  },
+
+  cleanUrls: true
 })

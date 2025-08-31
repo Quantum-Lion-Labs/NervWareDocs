@@ -1,16 +1,32 @@
+# Installation Guide
+
+## Quickstart
+
+* Install Unity **6000.2.0f1** + Android & Windows (IL2CPP) modules.
+```
+unityhub://6000.2.0f1
+```
+* Create a URP project. 
+* Install the NervWare package via git URL.
+```
+https://github.com/Quantum-Lion-Labs/NervWare.git
+```
+* Log in via the Welcome Panel and Inject Project Settings (NervWare > Welcome).
+* Create!
+
+## Installing Unity
+
 ::: tip Prerequisite
 You will need Git for the Unity package manager to function properly. You can download Git [here](https://git-scm.com/downloads/). Default installation settings are fine. Some systems may have this pre-installed. 
 :::
-
-## Installing Unity
 
 ### You will need Unity Hub and Unity version 6000.2.0f1.
 
 1. Install Unity Hub. You can download Unity Hub [here](https://unity.com/download).
 
-2. Once Unity Hub is installed, open the installer for the correct editor version by pasting `unityhub://6000.2.0` into your browser, or by visiting Unity's [download archive](https://unity.com/releases/editor/archive).
+2. Once Unity Hub is installed, open the installer for the correct editor version by pasting `unityhub://6000.2.0f1` into your browser, or by visiting Unity's [download archive](https://unity.com/releases/editor/archive).
 ```
-unityhub://6000.2.0
+unityhub://6000.2.0f1
 ```
 
 3. **Make sure to include the required `Android Build Support` and `Windows Build Support (IL2CPP)` modules**. Everything else can be left unchecked.
@@ -27,7 +43,7 @@ unityhub://6000.2.0
 ## Making the SDK Unity Project
 Once Unity has finished installing, you can make your SDK project. In the `Projects` section of the Unity Hub, choose `New Project`
 
-You can name the project whatever you'd like. You can also store the project wherever you like. The only requirements here are that you choose `Universal 3D Core` as your template project, and that the `Editor Version` is `6000.0.30f1`. This will ensure the render pipeline is setup correctly. Press `Create project` to continue.
+You can name the project whatever you'd like. You can also store the project wherever you like. The only requirements here are that you choose `Universal 3D Core` as your template project, and that the `Editor Version` is `6000.2.0f1`. This will ensure the render pipeline is setup correctly. Press `Create project` to continue.
 
 ![image](https://github.com/user-attachments/assets/f6c297bc-8dfe-46d8-87a6-971abda42203)
 

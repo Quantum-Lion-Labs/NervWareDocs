@@ -4,21 +4,32 @@ layout: home
 
 hero:
   name: "NervWare SDK Documentation"
-  text: "UNDER CONSTRUCTION!"
-  tagline: Modding in NervBox has never been easier!
+  text: ""
+  tagline: Modding in NervBox made easy!
+  # image:
+  #   src: /Assets/NervWare.svg
+  #   alt: NervWare
   actions:
     - theme: brand
-      text: Install
+      text: Get Started
       link: /installation
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: About
+      link: /introduction
+    - theme: alt
+      text: Roadmap
+      link: /roadmap
 
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+# features:
+#   - title: Feature A
+#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#   - title: Feature B
+#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#   - title: Feature C
+#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
+
+
+::: danger THIS SITE IS UNDER CONSTRUCTION
+Thank you for your patience as we finish building out the docs! 
+:::
