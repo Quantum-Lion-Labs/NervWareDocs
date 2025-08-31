@@ -7,7 +7,7 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
 
-    logo: 'public/NervWare.svg',
+    logo: 'NervWare.svg',
     siteTitle: 'Docs',
 
     nav: [

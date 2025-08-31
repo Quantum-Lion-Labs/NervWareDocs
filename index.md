@@ -7,7 +7,7 @@ hero:
   text: ""
   tagline: Modding in NervBox made easy!
   # image:
-  #   src: /public/NervWare.svg
+  #   src: /NervWare.svg
   #   alt: NervWare
   actions:
     - theme: brand
