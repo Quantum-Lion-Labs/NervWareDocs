@@ -33,3 +33,6 @@ hero:
 ::: danger THIS SITE IS UNDER CONSTRUCTION
 Thank you for your patience as we finish building out the docs! 
 :::
+
+![Test Image](images/index/istockphoto-816752606-612x612.jpg)
+![Test SVG](images/index/Test.svg)
