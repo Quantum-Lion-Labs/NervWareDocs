@@ -30,7 +30,20 @@ export default defineConfig({
           { text: 'Creating a Spawnable', link: '/spawnable' },
           { text: 'Creating a Level', link: '/level' },
           { text: 'Grips Overview', link: '/grips' },
-          { text: 'Relink Mod Data to Existing Mod', link: '/recovery' }
+          { text: 'Relink Mod Data to Existing Mod', link: '/recovery' },
+          { text: 'Thumbnail Creator'},
+          { text: 'Impact Painter'}
+        ]
+      },
+      {
+        text: 'Component Reference',
+        items: [
+          { text: 'Grips'},
+          { text: 'Audio Clip Player'},
+          { text: 'Collision Sender'},
+          { text: 'Gamemode Info'},
+          { text: 'Slottable Object'},
+          { text: 'Grip Events'}
         ]
       }
     ],

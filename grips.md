@@ -9,7 +9,7 @@ Currently we offer 4 grip types:
 - Sphere Grip: A grip that represents a sphere. The hand is rotated and positioned relative to the center of the sphere. An example usage of this grip would be a basketball.
 Shown below is the generic grip component.
 
-![image](https://github.com/user-attachments/assets/aa1647f9-d78b-4697-a12c-a89d254fe670)
+![generic grip](images/grips/image.png)
 
 **Generally a grip will need a collider or trigger in order to be detected. The collider should be on the same object as the grip component!**
 
@@ -21,7 +21,7 @@ All grips share several fields. Some of these may be under the `Advanced Setting
 
 ### Positioning Settings - Point, Sphere & Cylinder Grips
 
-![image](https://github.com/user-attachments/assets/d2644d0c-7178-4b0a-b98d-4e20aa23b736)
+![positioning](images/grips/image-1.png)
 
 This is where the different grip types will tend to diverge. Generally they all have 3 fields:
 - `Flip Horizontal` When checked, the grip will mirror over the x (red) axis per hand instead of not mirroring. 
@@ -30,9 +30,9 @@ This is where the different grip types will tend to diverge. Generally they all 
 
 ### Interaction Settings
 
-![image](https://github.com/user-attachments/assets/56387823-41d0-4cca-b94f-d94d1e28b227)
+![force grab](images/grips/image-3.png)
 
-![image](https://github.com/user-attachments/assets/f6c4f638-6b2e-4eb7-b0d0-0a2c09a706f2)
+![interaction settings](images/grips/image-2.png)
 
 These settings are used for determining when the object should be grabbed, whether it can be forced grab, and how collision will work.
 
@@ -48,7 +48,7 @@ These settings are used for determining when the object should be grabbed, wheth
 
 ### Advanced - Hand Joint Settings
 
-![image](https://github.com/user-attachments/assets/74e0bc0f-1382-4fdd-83dc-4dcea43eebfd)
+![joint settings](images/grips/image-4.png)
 
 All grabbed objects are connected via joints. Currently we expose two properties of those joints:
 - `Grab Rotation Limits` When grabbed, how much rotational freedom is available in each axis. Set this to zero to lock any rotational movement.
@@ -58,7 +58,7 @@ All grabbed objects are connected via joints. Currently we expose two properties
 
 ### Advanced - Using Handposes
 
-![image](https://github.com/user-attachments/assets/c132f9ad-30c6-41f2-a602-a738240d98f2)
+![hand pose](images/grips/image-5.png)
 
 Grips have several handpose settings available. To use a handpose, click the `Choose Pose` button and pick a handpose from the window that appears. A pair of preview hands will spawn, which you can toggle on/off with the `Show Left/Right Preview` checkboxes. If you don't wish to use a handpose and instead wish to use the procedural handposing, ensure `Use Procedural Posing Fallback` is checked as well as that there is no handpose assigned. If unchecked no pose will be applied and your hands will animate as if you had an empty hand.
 
@@ -80,8 +80,6 @@ Point grips have a few additional fields:
 - `Allow Flipping Up Axis` If enabled, the grip can be grabbed upside down on the up/y (green) axis.
 - `Allow Flipping Forward Axis` If enabled, the grip can be grabbed upside down on the z/forward (blue) axis.
 
-![image](https://github.com/user-attachments/assets/33319af0-27de-4f04-8b91-e34577c5d9d6)
-
 ## Cylinder Grip
 
 Cylinder grips require a collider or trigger to represent their grab range. In NervBox we typically use either the actual collision geometry of the object itself, or a capsule trigger. 
@@ -92,7 +90,7 @@ For cylinder grips, you'll want to ensure you have a non-zero `Radius` and `heig
 
 ![image](https://github.com/user-attachments/assets/d070ed89-db8a-4bc5-8534-c2136a8c6967)
 
-![image](https://github.com/user-attachments/assets/2ede961f-bb8a-4021-82ae-e9749a05f01d)
+![cylinder grip](images/grips/image-6.png)
 
 ## Sphere Grip
 
