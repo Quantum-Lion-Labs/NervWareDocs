@@ -27,23 +27,23 @@ export default defineConfig({
         text: 'Getting Started',
         items: [
           { text: 'Installation', link: '/installation' },
-          { text: 'Creating a Spawnable', link: '/spawnable' },
+          { text: 'Creating a Spawnable', link: '/spawnable'},
           { text: 'Creating a Level', link: '/level' },
+          { text: 'Packaging your Mod', link: '/packaging'},
           { text: 'Grips Overview', link: '/grips' },
           { text: 'Relink Mod Data to Existing Mod', link: '/recovery' },
-          { text: 'Thumbnail Creator'},
-          { text: 'Impact Painter'}
+          { text: 'Thumbnail Creator', link: '/thumbnail'},
+          { text: 'Impact Properties', link: '/impact_painter'}
         ]
       },
       {
         text: 'Component Reference',
         items: [
-          { text: 'Grips'},
-          { text: 'Audio Clip Player'},
-          { text: 'Collision Sender'},
-          { text: 'Gamemode Info'},
-          { text: 'Slottable Object'},
-          { text: 'Grip Events'}
+          { text: 'Audio Clip Player', link: '/audioclip_player'},
+          { text: 'Collision Sender', link: '/collision_sender'},
+          { text: 'Gamemode Info', link: '/gamemode_info'},
+          { text: 'Slottable Object', link: '/slottable_object'},
+          { text: 'Grip Events', link: '/grip_events'}
         ]
       }
     ],

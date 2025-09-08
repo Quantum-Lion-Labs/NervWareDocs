@@ -62,7 +62,7 @@ All grabbed objects are connected via joints. Currently we expose two properties
 
 Grips have several handpose settings available. To use a handpose, click the `Choose Pose` button and pick a handpose from the window that appears. A pair of preview hands will spawn, which you can toggle on/off with the `Show Left/Right Preview` checkboxes. If you don't wish to use a handpose and instead wish to use the procedural handposing, ensure `Use Procedural Posing Fallback` is checked as well as that there is no handpose assigned. If unchecked no pose will be applied and your hands will animate as if you had an empty hand.
 
-![image](https://github.com/user-attachments/assets/eaa3eaa5-8dc5-4805-b1f6-3052162724f8)
+![hand pose preview](images/grips/eaa3eaa5-8dc5-4805-b1f6-3052162724f8.png)
 
 ## Generic Grip
 
@@ -72,7 +72,7 @@ There are no specific fields to this grip. This grip just requires that there ar
 
 Point grips require some sort of trigger or collider to define their grab range. In NervBox we typically use a sphere trigger on the same game object as the point grip, as shown below:
 
-![image](https://github.com/user-attachments/assets/93ccff1e-4443-435f-bc0a-cc0050a2ed40)
+![point grip](images/grips/93ccff1e-4443-435f-bc0a-cc0050a2ed40.png)
 
 Point grips should be center aligned with their objects in order to ensure that they're symmetrical when grabbed. If you assign a target transform you can have your grip be offset from grip's transform and trigger. You'll also want to set a grip radius for thicker objects.
 
@@ -84,11 +84,11 @@ Point grips have a few additional fields:
 
 Cylinder grips require a collider or trigger to represent their grab range. In NervBox we typically use either the actual collision geometry of the object itself, or a capsule trigger. 
 
-![image](https://github.com/user-attachments/assets/59ae46a5-3bdc-4a4f-ad03-4ba449afb95c)
+![cylinder grip preview](images/grips/59ae46a5-3bdc-4a4f-ad03-4ba449afb95c.png)
 
 For cylinder grips, you'll want to ensure you have a non-zero `Radius` and `height` set. The height determines the length of your cylinder grip. Use the Gizmo in the scene view to preview your grip.
 
-![image](https://github.com/user-attachments/assets/d070ed89-db8a-4bc5-8534-c2136a8c6967)
+![cylinder grip radius](images/grips/d070ed89-db8a-4bc5-8534-c2136a8c6967.png)
 
 ![cylinder grip](images/grips/image-6.png)
 
@@ -96,5 +96,5 @@ For cylinder grips, you'll want to ensure you have a non-zero `Radius` and `heig
 
 A sphere grip also requires a trigger or collider, but behaves a little bit differently. If there is a sphere collider on/as a child of the object, the grip will use that sphere to base the grip on instead. Otherwise use the grip `Radius` field to set the sphere's radius.
 
-![image](https://github.com/user-attachments/assets/0a3e26eb-1e58-4e26-bc6f-62b96742257a)
+![sphere grip](images/grips/0a3e26eb-1e58-4e26-bc6f-62b96742257a.png)
 

@@ -1,3 +1,11 @@
+---
+prev:
+  text: 'Installation'
+  link: '/installation'
+next:
+  text: 'Packaging your Mod'
+  link: '/packaging'
+---
 # Creating your first level
 In NervBox, we have several steps to setup our levels, in order to ensure a high level of detail and performance. Level design and modeling are outside of the scope of this guide. We'll assume at this point that you have your level geometry setup at this point. This guide will be using an empty version of the NervBall arena:
 
@@ -26,14 +34,10 @@ In order for the best performance, objects in your level that do not move should
 
 Once your level has been marked as static, you can now bake occlusion culling, which will help with performance on large scenes. To do this, go to Window->Rendering->Occlusion Culling, which will open the Occlusion tab. Click `Bake` to bake occlusion. This should be pretty quick.
 
-**TODO: Occlusion culling best practices**
-
 ## Physics
 NervBox is physics based, so each scene will need collision. Generally for static objects you can use a non-convex `Mesh collider`, but if you're noticing that objects are falling through walls or floors, consider adding some thicker box colliders to help catch them. Non-Convex mesh colliders are paper thin. You'll need to add colliders to all objects that you want to be able to interact with. For each collider, you should assign a physics material to represent the friction and bounciness of the surface. In NervBox we typically use real world values, such as 0.9 static and dynamic for concrete. 
 
 If you have dynamic props or rigidbodies in the scene, you'll need to add `NetworkedInteractables` to them so they sync properly. See [creating a simple spawnable](https://github.com/Quantum-Lion-Labs/NervWare/wiki/Creating-a-Simple-Spawnable) for more information. Dynamic props should use primitive colliders unless a mesh collider is more optimal.
-
-**TODO: Level Collision best practices**
 
 ![collision](images/level/cfaada4e-efcb-4ba2-82a6-83903c41292b.png)
 
@@ -41,15 +45,7 @@ Our scene now has collision!
 
 ## NBImpact
 
-It is also required that you tag your scene geometry for material properties. For each static geometry in your scene that you wish to have sounds, bullet decals, or be able to be stabbed, you'll need to add a NB Impact component to that object. The SDK includes a tool to paint geometry quickly. To open this tool, click the three dots in the top-right corner of the scene view, choose `Overlay Menu`, then click on `Surface Painter`.
-
-![overlay menu](images/level/image-2.png)
-
-Now click on the paint brush icon next to your transform toolbar. 
-
-![paint brush](images/level/image-3.png)
-
-You are now ready to begin painting your scene with impact materials. Simply choose a material, then click on the static geometry you wish to set as that material. You can click the `Toggle Missing Collider View` button to show what surfaces have or have not been tagged. The surface painter will automatically add `NBImpact`, `MetaXR Acoustic Geometry`, and `MetaXR Acoustic Material` components, all with the proper fields filled out. You may want to switch to unlit rendering in the scene view for better visibility. 
+It is also required that you tag your scene geometry for material properties. For each static geometry in your scene that you wish to have sounds, bullet decals, or be able to be stabbed, you'll need to add a NB Impact component to that object. The SDK includes a tool to paint geometry quickly. See the [impact painter](/impact_painter.md) docs for more information. 
 
 ![painter preview](images/level/image-4.png)
 
@@ -93,3 +89,5 @@ Once placed, adjust the probe's position and its "Size" property to define the i
 
 ### Lightmaps
 Once you've set up your Light and Reflection Probes, it's time to bake them, and your lightmaps. Default settings should be fine, just make sure to keep the lightmap resolution at a level that allows for baking down to 1 4k texture.
+
+You are now ready to package your mod. See [packaging your mod](/packaging.md) for the next steps.
