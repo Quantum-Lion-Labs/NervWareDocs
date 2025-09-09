@@ -40,7 +40,7 @@ To set the attenuation distances for the sounds, use the gizmo in the scene view
 
 ## Advanced Usage
 
-![advanced audio clip settings](images/audioclip_player/image-2.png)
+![advanced audio clip player settings](images/audioclip_player/image-4.png)
 
 ### Directivity Intensity
 
