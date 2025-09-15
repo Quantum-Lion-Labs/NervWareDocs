@@ -33,7 +33,8 @@ export default defineConfig({
           { text: 'Grips Overview', link: '/grips' },
           { text: 'Relink Mod Data to Existing Mod', link: '/recovery' },
           { text: 'Thumbnail Creator', link: '/thumbnail'},
-          { text: 'Impact Properties', link: '/impact_painter'}
+          { text: 'Impact Properties', link: '/impact_painter'},
+          { text: 'Spawnable Best Practices', link: '/spawnable_practices'}
         ]
       },
       {
