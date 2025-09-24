@@ -44,7 +44,9 @@ export default defineConfig({
           { text: 'Collision Sender', link: '/collision_sender'},
           { text: 'Gamemode Info', link: '/gamemode_info'},
           { text: 'Slottable Object', link: '/slottable_object'},
-          { text: 'Grip Events', link: '/grip_events'}
+          { text: 'Grip Events', link: '/grip_events'},
+          { text: 'Trigger Events', link: '/trigger_events'},
+          { text: 'Kill Trigger', link: 'kill_trigger'}
         ]
       }
     ],

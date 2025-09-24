@@ -24,7 +24,11 @@ Now that you have your model setup with colliders, it is time to add a rigidbody
 
 ![rigidbody](images/spawnable/90a3fd87-afb0-4e78-a963-af6f2ee5ced4.png)
 
-You now have a physics object, but it still needs to be synced over the network. To do this, add a Networked Interactable component to the spawnable root. If there are any child rigidbodies, add a Networked Interactable to each of those as well. Your object won't work properly without this!
+You now have a physics object, but it still needs to be synced over the network. To do this, add a Networked Interactable component to the spawnable root.  If there are any child rigidbodies, add a Networked Interactable to each of those as well. Your object won't work properly without this! You can also add Networked Interactables on any transforms to sync those as well.
+
+::: danger IMPORTANT
+Even if there is no rigidbody on the root, you MUST have a networked interactable on it in order for your mod to work properly.
+:::
 
 ![networked interactable](images/spawnable/image.png)
 
