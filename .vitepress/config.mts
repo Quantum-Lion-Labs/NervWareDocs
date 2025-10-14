@@ -30,6 +30,7 @@ export default defineConfig({
           { text: 'Creating a Spawnable', link: '/spawnable'},
           { text: 'Creating a Level', link: '/level' },
           { text: 'Packaging your Mod', link: '/packaging'},
+          { text: 'Testing your Mod', link: '/testing'},
           { text: 'Grips Overview', link: '/grips' },
           { text: 'Relink Mod Data to Existing Mod', link: '/recovery' },
           { text: 'Thumbnail Creator', link: '/thumbnail'},
@@ -46,7 +47,9 @@ export default defineConfig({
           { text: 'Slottable Object', link: '/slottable_object'},
           { text: 'Grip Events', link: '/grip_events'},
           { text: 'Trigger Events', link: '/trigger_events'},
-          { text: 'Kill Trigger', link: 'kill_trigger'}
+          { text: 'Kill Trigger', link: '/kill_trigger'},
+          { text: 'Actuator', link: '/actuator'},
+          { text: 'Actuate Events', link: '/actuate_events'}
         ]
       }
     ],
