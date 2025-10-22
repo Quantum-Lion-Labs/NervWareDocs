@@ -49,7 +49,8 @@ export default defineConfig({
           { text: 'Trigger Events', link: '/trigger_events'},
           { text: 'Kill Trigger', link: '/kill_trigger'},
           { text: 'Actuator', link: '/actuator'},
-          { text: 'Actuate Events', link: '/actuate_events'}
+          { text: 'Actuate Events', link: '/actuate_events'},
+          { text: 'Blades', link: '/blades'}
         ]
       }
     ],
