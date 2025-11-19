@@ -2,9 +2,9 @@
 
 ## Quickstart
 
-* Install Unity **6000.2.12f1** + Android & Windows (IL2CPP) modules.
+* Install Unity **6000.2.13f1** + Android & Windows (IL2CPP) modules.
 ```
-unityhub://6000.2.12f1
+unityhub://6000.2.13f1
 ```
 * Create a URP project. 
 * Install the NervWare package via git URL. You must have **Git** installed.
@@ -20,13 +20,13 @@ https://github.com/Quantum-Lion-Labs/NervWare.git
 You will need Git for the Unity package manager to function properly. You can download Git [here](https://git-scm.com/downloads/). Default installation settings are fine. Some systems may have this pre-installed. Restart your computer after installing Git.
 :::
 
-### You will need Unity Hub and Unity version 6000.2.12f1.
+### You will need Unity Hub and Unity version 6000.2.13f1.
 
 1. Install Unity Hub. You can download Unity Hub [here](https://unity.com/download).
 
-2. Once Unity Hub is installed, open the installer for the correct editor version by pasting `unityhub://6000.2.12f1` into your browser, or by visiting Unity's [download archive](https://unity.com/releases/editor/archive).
+2. Once Unity Hub is installed, open the installer for the correct editor version by pasting `unityhub://6000.2.13f1` into your browser, or by visiting Unity's [download archive](https://unity.com/releases/editor/archive).
 ```
-unityhub://6000.2.12f1
+unityhub://6000.2.13f1
 ```
 
 3. **Make sure to include the required `Android Build Support` and `Windows Build Support (IL2CPP)` modules**. Everything else can be left unchecked.
