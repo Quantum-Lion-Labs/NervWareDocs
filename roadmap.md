@@ -1,5 +1,6 @@
 ---
 title: NervWare Roadmap
+description: Upcoming NervWare Features
 
 # Custom Roadmap Data
 roadmapData:

@@ -1,3 +1,8 @@
+---
+title: About NervWare
+description: The Official Modding SDK for NervBox.
+---
+
 # Welcome to NervWare!
 
 **The Official Modding SDK for NervBox.**
