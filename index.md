@@ -21,12 +21,15 @@ hero:
       link: /roadmap
 
 # features:
-#   - title: Feature A
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - title: Feature B
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - title: Feature C
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#   - title: Physics-First Workflows
+#     icon: ⚛
+#     details: Configure physical properties to define object behavior; NervBox handles all complex interaction logic.
+#   - title: Multiplayer by Default
+#     icon: 👥
+#     details: Build assets that are automatically synchronized and fully interactive for all players in a lobby.
+#   - title: Mod Streaming
+#     icon: 📥
+#     details: Instantly load community-made weapons, props, and worlds directly into a live session. No game restart required.
 ---
 
 
