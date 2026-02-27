@@ -35,7 +35,8 @@ export default defineConfig({
           { text: 'Relink Mod Data to Existing Mod', link: '/recovery' },
           { text: 'Thumbnail Creator', link: '/thumbnail'},
           { text: 'Impact Properties', link: '/impact_painter'},
-          { text: 'Spawnable Best Practices', link: '/spawnable_practices'}
+          { text: 'Spawnable Best Practices', link: '/spawnable_practices'},
+          { text: 'Gun Creation Guide', link: '/guns'}
         ]
       },
       {
