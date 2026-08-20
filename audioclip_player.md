@@ -22,7 +22,7 @@ The `Spatial Mode` dropdown allows you to choose whether the clip will play in w
 
 ## Playback Events
 
-Each playback event toggle will choose when the sound gets played. This is useful for hooking into events, playing sounds when an object spawns, playing sounds when an object despawns, and more. See the [Unity execution order documentation](https://docs.unity3d.com/6000.2/Documentation/Manual/execution-order.html) if you are unfamiliar with how Unity's event lifecylce works.
+Each playback event toggle will choose when the sound gets played. This is useful for hooking into events, playing sounds when an object spawns, playing sounds when an object despawns, and more. See the [Unity execution order documentation](https://docs.unity3d.com/6000.3/Documentation/Manual/execution-order.html) if you are unfamiliar with how Unity's event lifecylce works.
 
 `Play On Awake` or `Play On Start` are good default values.
 

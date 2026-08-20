@@ -12,4 +12,4 @@ For orientation, try to ensure the axis's of your root object match up with how 
 
 ## LODs
 
-For performance, LODs are recommended for your spawnables. With Unity 6.2 you now have access to MeshLODs, which will do this automatically. To enable this, select your model, choose the 'Model' tab on the import settings panel, and tick 'Generate Mesh LODs'. See the Unity [docs](https://docs.unity3d.com/6000.2/Documentation/Manual/lod/mesh-lod-introduction.html) for more information.
+For performance, LODs are recommended for your spawnables. With Unity 6.2 you now have access to MeshLODs, which will do this automatically. To enable this, select your model, choose the 'Model' tab on the import settings panel, and tick 'Generate Mesh LODs'. See the Unity [docs](https://docs.unity3d.com/6000.3/Documentation/Manual/lod/mesh-lod-introduction.html) for more information.
