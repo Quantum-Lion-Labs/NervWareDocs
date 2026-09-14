@@ -1,0 +1,37 @@
+/**
+ * Custom styles for NervWare Documentation
+ */
+
+/* Make the hero image much larger */
+.VPImage.image-src {
+  width: 500px !important;
+  max-width: 500px !important;
+  height: auto !important;
+}
+
+.VPHero .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* On larger screens, make it even bigger */
+@media (min-width: 960px) {
+  .VPImage.image-src {
+    width: 700px !important;
+    max-width: 700px !important;
+  }
+}
+
+@media (min-width: 1440px) {
+  .VPImage.image-src {
+    width: 900px !important;
+    max-width: 900px !important;
+  }
+}

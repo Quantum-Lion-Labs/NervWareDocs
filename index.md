@@ -6,9 +6,9 @@ hero:
   name: "NervWare SDK Documentation"
   text: ""
   tagline: Modding in NervBox made easy!
-  # image:
-  #   src: /NervWare.svg
-  #   alt: NervWare
+  image:
+    src: /nervman_construct.png
+    alt: Construction NervMan 
   actions:
     - theme: brand
       text: Get Started

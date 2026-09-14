@@ -4,6 +4,7 @@ import DefaultTheme from 'vitepress/theme'
 import { YouTubeEmbed } from '@miletorix/vitepress-youtube-embed'
 import '@miletorix/vitepress-youtube-embed/style.css'
 import RoadmapDisplay from './components/RoadmapDisplay.vue';
+import './style.css';
 
 export default {
   extends: DefaultTheme,
